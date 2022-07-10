@@ -1,0 +1,64 @@
+.hero {
+  display: none;
+}
+
+.btn-login {
+  display: none;
+}
+
+.div-login {
+  width: var(--width-max);
+  height: 472px;
+  margin: 5rem 0  0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+}
+
+.box-login {
+  /*position: absolute;*/
+  /*width: 423px; 423/1366 = 0.3096 */
+  width: calc(0.3096 * var(--width-max));
+  height: 291px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+}
+
+.caixa {
+  width: 100%;
+  height: 63.13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--cor-texto-barra);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  border-bottom-color: #C8C8C8;
+  background-color: var(--cor-branco);
+}
+
+#btn-home-login {
+  display: none;
+}
+
+#btn-login {
+  width: 100%;
+  /*height: 62px;
+  color: var(--cor-branco);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);*/
+}
+
+.section-espacador {
+  margin: 0 0 7rem 0;
+}
