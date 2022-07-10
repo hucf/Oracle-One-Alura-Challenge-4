@@ -1,0 +1,59 @@
+.header-produtos {
+  background-color: var(--cor-branco);
+}
+
+/*
+#btn-menu-admin {
+  width: 182px;
+  height: 51px;
+  padding: 16px;
+  margin: 0 0 0 5rem;
+  color: var(--cor-btn-azul);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--cor-btn-azul);
+  border-radius: 5px;
+  background-color: var(--cor-branco);
+}
+*/
+
+.section-box {
+  width: var(--width-max);
+  height: 491px;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*gap: 8px;*/
+}
+
+.box-interno {
+  /*width: 423px; 559/1366 = 0.4092 */
+  width: calc(0.4092 * var(--width-max));
+  height: 491px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+}
+
+/*
+#btn-adicionar-prod {
+  width: 100%;
+  height: 51px;
+  color: var(--cor-branco);
+  font-size: var(--font-size-btn);
+  font-weight: var(--font-weight-btn);
+  border: none;
+  background-color: var(--cor-btn-azul);
+}
+*/
+
+
